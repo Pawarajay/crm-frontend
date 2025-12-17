@@ -2728,7 +2728,7 @@ export function CRMProvider({ children }: { children: React.ReactNode }) {
     try {
       const response = await fetch(
         `${
-          process.env.NEXT_PUBLIC_API_URL || "https://crm-backend-53w9.onrender.com/api"}/api/users`,
+          process.env.NEXT_PUBLIC_API_URL || "https://crm-backend-53w9.onrender.com"}/api/users`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
