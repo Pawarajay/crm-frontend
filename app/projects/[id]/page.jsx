@@ -11,7 +11,7 @@ import TimeTracking from '@/components/projects/TimeTracking';
 import NotesDiscussion from '@/components/projects/NotesDiscussion';
 
 // same backend base
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://crm-backend-53w9.onrender.com/api';
 
 export default function ProjectDetailPage() {
   const params = useParams();
